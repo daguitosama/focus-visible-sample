@@ -58,4 +58,5 @@ export default {
       'postcss-focus-visible': {}
     }
   },
+  target:'static'
 }
