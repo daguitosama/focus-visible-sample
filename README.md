@@ -1,11 +1,15 @@
 ---
-title: Making focus-visible happen where do you live
+title: 
 published: true
 description: A quick guide to setting up focus-visible on your nuxt/tailwind projects.
 tags: Nuxt,Tailwindcss, a11y
 cover_image: https://images.unsplash.com/photo-1578406033714-319ffaf023eb
 ---
- 
+# [Making focus-visible happen where do you live](https://dev.to/d4g0/making-focus-visible-happen-where-do-you-live-pho)
+### **A quick guide to setting up focus-visible on your nuxt/tailwind projects.**
+
+![Color Lights](https://images.unsplash.com/photo-1578406033714-319ffaf023eb)
+
 In case you don't know  the `focus-visible` css selector allows us to target DOM elements that have been focused by a keyboard interaction, instead the traditional `focus` that targets every focused element.
  
 ## Why do we  need that distinction in the first place ?
@@ -20,6 +24,7 @@ So quick recap: we need a way to tell our keyboard people what elements they hav
 ## OK  let's make this happen !
  
 You can find this [repo](https://github.com/d4g0/focus-visible-sample) at GitHub, feel free to clone it.
+Also you can check the live version [here](https://ecstatic-euler-92587b.netlify.app/) .
  
 I'm going to use [Nuxt.js](https://nuxtjs.org/) and [Tailwind](https://tailwindcss.com/) because those are my favorite tools, but you can apply what you will learn here to every project. The real hero behind the scenes here is the `focus-visible` [Polyfill](https://github.com/WICG/focus-visible).
  
